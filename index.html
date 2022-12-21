@@ -7,24 +7,25 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/38554ff06d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="common.css">
   </head>
   <body>
 
     <!-- navbar  -->
     <section>
-        <nav class="navbar navbar-expand-lg border-bottom">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Upwork</a>
+        <nav class="navbar navbar-expand-lg border-bottom px-2">
+            <div class="container-fluid ">
+                <a class="navbar-brand primary-color font-w-lg" href="#">Upwork</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle nav-txt" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Find Talent
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu nav-txt">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li><hr class="dropdown-divider"></li>
@@ -32,10 +33,10 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle nav-txt" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Find Work
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu nav-txt">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li><hr class="dropdown-divider"></li>
@@ -43,10 +44,10 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle nav-txt" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Why Upwork
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu nav-txt">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li><hr class="dropdown-divider"></li>
@@ -54,49 +55,51 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Entireprise</a>
+                            <a class="nav-link active nav-txt" aria-current="page" href="#">Entireprise</a>
                         </li>
                         
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                        <li class="nav-item list li-style">
-                            <a class="nav-link active td p-2 mx-3" aria-current="page" href="#">Log in</a>
-                        </li>
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    <form class="d-flex nav-txt" role="search">
+                        <input class="form-control rounded-pill" type="search" placeholder="Search" aria-label="Search">
+                        <div>
+                            <a class="nav-link active td p-2 mx-3 nav-txt" aria-current="page" href="#">Log in</a>
+                        </div>
+                        <button class="btn btn-outline-success nav-txt nowrap rounded-pill px-4 bgc-primary secondary-txt-color" type="submit">Sign Up</button>
                     </form>
                 </div>
             </div>
         </nav>
         <div class="second-nav mb-4">
             <div class="row g-0">
-                <div class="col-auto d-flex p-3">
-                    <li class="li-style">
-                        <a class="td p-2" href="">Development&IT</a>
-                    </li>
-                    <li class="li-style">
-                        <a class="td p-2" href="">Design & Creative</a>
-                    </li>
-                    <li class="li-style">
-                        <a class="td p-2" href="">Sales & Marketing</a>
-                    </li>
-                    <li class="li-style">
-                        <a class="td p-2" href="">Writing & Translation</a>
-                    </li>
-                    <li class="li-style">
-                        <a class="td p-2" href="">Admin & Customer Support</a>
-                    </li>
-                    <li class="nav-item dropdown li-style px-2">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            More
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
+                <div class="col-auto py-3">
+                    <ul class="d-flex ps-3">
+                        <li class="li-style">
+                            <a class="td p-2 nav-txt" href="">Development&IT</a>
+                        </li>
+                        <li class="li-style">
+                            <a class="td p-2 nav-txt" href="">Design & Creative</a>
+                        </li>
+                        <li class="li-style">
+                            <a class="td p-2 nav-txt" href="">Sales & Marketing</a>
+                        </li>
+                        <li class="li-style">
+                            <a class="td p-2 nav-txt" href="">Writing & Translation</a>
+                        </li>
+                        <li class="li-style">
+                            <a class="td p-2 nav-txt" href="">Admin & Customer Support</a>
+                        </li>
+                        <li class="nav-item dropdown li-style px-2">
+                            <a class="nav-link dropdown-toggle nav-txt" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                More
+                            </a>
+                            <ul class="dropdown-menu nav-txt">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -104,35 +107,36 @@
     <!-- hero section starts here  -->
     <section>
         <div class="container">
-            <div class="row mb-4">
-                <div class="col-sm-12 col-md-6">
+            <div class="row mb-4 justify-content-between">
+                <div class="col-sm-12 col-md-6 col-lg-6">
                     <div class="inner-content">
-                        <h1>Hard Work <br> should work</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, sit.</p>
+                        <h1 class="xxl primary-color">Hard Work should work</h1>
+                        <p class="para-xl tertiary-txt-color">Forget the old rules. You can have the best people.
+                            Right now. Right here.</p>
                     </div>
-                    <div class="row ">
-                        <div class="col-6">
-                            <button class="btn btn-outline-success" type="submit">Get Started</button>
+                    <div class="row mb-5">
+                        <div class="col-auto me-2">
+                            <button class="btn btn-outline-success rounded-pill btn-txt-sm bgc-primary secondary-txt-color px-4" type="submit">Get Started</button>
                         </div>
-                        <div class="col-6">
-                            <button class="btn btn-outline-success" type="submit">Learn how to hire</button>
+                        <div class="col-auto">
+                            <button class="btn btn-outline-success rounded-pill px-4" type="submit">Learn how to hire</button>
                         </div>
                     </div>
-                    <div class="row mt-5">
+                    <div class="row my-5">
                         <span>Trusted by</span>
                         <div class="col-auto my-3">
                             <div class="mega-logo ">
                                 <a class="" href="#"> <img src="./image/microsoft.svg" alt=""></a>
-                                <a class="m-4" href="#"> <img src="./image/bissell.svg" alt=""></a>
                                 <a class="m-4" href="#"> <img src="./image/airbnb.svg" alt=""></a>
+                                <a class="m-4" href="#"> <img src="./image/bissell.svg" alt=""></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 min-height">
-                    <div class="mega-logo min-height">
-                        <div class="box-circle bg-color rounded-circle justify-content-center">
-                            
+                <div class="col-sm-12 col-md-6 col-lg-5 text-center">
+                    <div class="mega-logo">
+                        <div class="bg-color rounded-circle">
+                            <img class="image" src="./image/globe@2x.webp" alt="">
 
                         </div>
 
@@ -142,16 +146,16 @@
 
             <!-- box content start here   -->
 
-            <div class="box-content mb-4">
+            <div class=" mb-4">
                 <div class="row">
-                    <h1>Browse talent by category</h1>
+                    <h1 class="md">Browse talent by category</h1>
                     <p>looking for work? <a href="#">Browse jobs</a></p>
                 </div>
                 <div class="row g-3">
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <div class="box-container">
-                            <div class="category-title">
-                                <h2>Development&IT</h2>
+                        <div class="box-container ">
+                            <div class="category-title ">
+                                <h2 class="xsm">Development&IT</h2>
                             </div>
                             <div class="skills">
                                 <img class="icon-img" src="./image/star.svg" alt="">
@@ -163,7 +167,7 @@
                     <div class="col-sm-6 col-md-4 col-lg-3">
                         <div class="box-container">
                             <div class="category-title">
-                                <h2>Design&Creative</h2>
+                                <h2 class="xsm">Design&Creative</h2>
                             </div>
                             <div class="skills">
                                 <img class="icon-img" src="./image/star.svg" alt="">
@@ -175,7 +179,7 @@
                     <div class="col-sm-6 col-md-4 col-lg-3">
                         <div class="box-container">
                             <div class="category-title">
-                                <h2>Development&IT</h2>
+                                <h2 class="xsm">Sales & Marketing</h2>
                             </div>
                             <div class="skills">
                                 <img class="icon-img" src="./image/star.svg" alt="">
@@ -187,7 +191,7 @@
                     <div class="col-sm-6 col-md-4 col-lg-3">
                         <div class="box-container">
                             <div class="category-title">
-                                <h2>Development&IT</h2>
+                                <h2 class="xsm">Development&IT</h2>
                             </div>
                             <div class="skills">
                                 <img class="icon-img" src="./image/star.svg" alt="">
@@ -199,7 +203,7 @@
                     <div class="col-sm-6 col-md-4 col-lg-3">
                         <div class="box-container">
                             <div class="category-title">
-                                <h2>Development&IT</h2>
+                                <h2 class="xsm">Development&IT</h2>
                             </div>
                             <div class="skills">
                                 <img class="icon-img" src="./image/star.svg" alt="">
@@ -211,7 +215,7 @@
                     <div class="col-sm-6 col-md-4 col-lg-3">
                         <div class="box-container">
                             <div class="category-title">
-                                <h2>Development&IT</h2>
+                                <h2 class="xsm">Development&IT</h2>
                             </div>
                             <div class="skills">
                                 <img class="icon-img" src="./image/star.svg" alt="">
@@ -223,7 +227,7 @@
                     <div class="col-sm-6 col-md-4 col-lg-3">
                         <div class="box-container">
                             <div class="category-title">
-                                <h2>Development&IT</h2>
+                                <h2 class="xsm">Development&IT</h2>
                             </div>
                             <div class="skills">
                                 <img class="icon-img" src="./image/star.svg" alt="">
@@ -235,7 +239,7 @@
                     <div class="col-sm-6 col-md-4 col-lg-3">
                         <div class="box-container">
                             <div class="category-title">
-                                <h2>Development&IT</h2>
+                                <h2 class="xsm">Development&IT</h2>
                             </div>
                             <div class="skills">
                                 <img class="icon-img" src="./image/star.svg" alt="">
@@ -253,23 +257,40 @@
 
             <!-- Enterprise suite  -->
 
-            <div class="con-one bg-color">
-                <div class="row mb-4 ">
-                    <div class="col-sm-12 col-md-7 p-5">
-                        <span>Enterprise Suite</span>
-                        <h1>
-                            This is how <br>
-                            good companies <br>
-                            find good company.
-                        </h1>
-                        <p>
-                            Access the top 1% of talent on Upwork, and a full suite of hybrid workforce management tools. This is how innovation works now.
-                        </p>
-                        <button class="btn btn-outline-success" type="submit">Get Started</button>
+            <div class="con-one rounded-4 mb-4">
+                <div class="row">
+                    <div class="col-sm-12 col-md-7 p-5 bg-mint">
+                        <div class="row">
+                            <div class="col-10">
+                                <span class="xsm font-w-lg secondary-txt-color">Enterprise Suite</span>
+                                <h1 class="lg font-w-sm">
+                                    <span class="secondary-txt-color">This is how</span> <br>
+                                    <span class="gc-color">good companies find good company.</span>
+                                </h1>
+                                <p class="para-md secondary-txt-color">
+                                    Access the top 1% of talent on Upwork, and a full suite of hybrid workforce management tools. This is how innovation works now.
+                                </p>
+                                <div class="div para-md secondary-txt-color my-4">
+                                    <div class="sk">
+                                        <img class="me-2" src="./image/Skills.webp" alt="">
+                                        <span>Access expert talent to fill your skill gaps</span>
+                                    </div>
+                                    <div class="sk">
+                                        <img class="me-2" src="./image/Briefcase.webp" alt="">
+                                        <span>Control your workflow: hire, classify and pay your talent</span>
+                                    </div>
+                                    <div class="sk">
+                                        <img class="me-2" src="./image/Support.webp" alt="">
+                                        <span>Partner with Upwork for end-to-end support</span>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-success rounded-pill bg-gray px-4 py-2" type="submit">Learn More</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-12 col-md-5">
-                        <div class="image bg-color min-height">
-                            <img src="#" alt="">
+                    <div class="col-sm-12 col-md-5 p-0">
+                        <div class="image">
+                            <img class="image" src="/image/hxwn-enterprise-image@2x.webp" alt="">
                         </div>
                     </div>
                 </div>
@@ -277,10 +298,10 @@
 
 
             <!-- find talent  -->
-            <div class="con_two bg-color">
-                <div class="row mb-4 p-4">
-                    <span>For Clients</span>
-                    <h1>Find talent <br>
+            <div class="con-two rounded-2 ">
+                <div class="row mb-4 p-4 secondary-txt-color">
+                    <span class="para-lg">For Clients</span>
+                    <h1 class="xl ">Find talent <br>
                         your way
                     </h1>
                     <p>Work with the largest network of independent professionals and get things done—from quick turnarounds to big transformations.</p>
@@ -340,7 +361,7 @@
                 <div class="row mb-4">
                     <div class="col-sm-12 col-md-6">
                         <div class="image">
-                            <img src="" alt="">
+                            <img class="image" src="./image/find-great-work.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 p-4">
@@ -401,12 +422,12 @@
             <div class="con-five text-center mb-4">
                 <div class="row mx-auto my-auto justify-content-center">
                     <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner " role="listbox">
+                        <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
                                 <div class="col-md-6 ">
                                     <div class="card">
                                         <div class="card-img">
-                                            <img src="https://via.placeholder.com/700x500.png/CB997E/333333?text=1" class="img-fluid">
+                                            <img src="https://via.placeholder.com/700x500.png/CB997E/333333?text=1" class="img-fluid" alt="aman">
                                         </div>
                                         <div class="card-img-overlay">Slide 1</div>
                                     </div>
@@ -416,7 +437,7 @@
                                 <div class="col-md-6">
                                     <div class="card">
                                         <div class="card-img">
-                                            <img src="https://via.placeholder.com/700x500.png/DDBEA9/333333?text=2" class="img-fluid">
+                                            <img src="https://via.placeholder.com/700x500.png/DDBEA9/333333?text=2" class="img-fluid" alt="aman">
                                         </div>
                                         <div class="card-img-overlay">Slide 2</div>
                                     </div>

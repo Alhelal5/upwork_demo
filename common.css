@@ -1,0 +1,134 @@
+:root {
+    --bg-color: #7878789c;
+    --nav-txt-color: #001a1e;
+    --primary-color: #14A800;
+    --primary-txt-color: #001e00 ;
+    --secondary-txt-color: #FFFFFF ;
+    --tertiary-txt-color: #5e6d55;
+    --devider-color:#5e6d55;
+    --bg-mint:#13544e;
+    --bg-blue: #1F57C3;
+    --bg-orange:#BC511B;
+    --bg-gray:#F2F7F2;
+    --bg-gray-2:#E4EBE4;
+
+    /* font size  */
+
+    --nav-font-size: 14px;
+    --headings-xxl:80px;
+    --headings-xl:72px;
+    --headings-lg:54px;
+    --headings-md:42px;
+    --headings-sm:38px;
+    --headings-xsm:23px;
+
+    --para-xl:26px;
+    --para-lg:24px;
+    --para-md:18px;
+    --para-sm:16px;
+
+    --btn-txt-md:16px;
+    --btn-txt-sm:15px;
+
+    --link-one-size:16px;
+    --list-link-size:24px;
+
+    --font-weight-lg:500;
+    --font-weight-sm:400;
+}
+
+.btn-txt-md{
+    font-size: var(--btn-txt-md);
+    font-weight: 500;
+}
+.btn-txt-sm{
+    font-size: var(--btn-txt-sm);
+    font-weight: 500;
+}
+.para-xl{
+    font-size: var(--para-xl);
+}
+.para-lg{
+    font-size: var(--para-lg);
+}
+.para-md{
+    font-size: var(--para-md);
+}
+.para-sm{
+    font-size: var(--para-sm);
+}
+
+
+.bg-color{
+    background-color: var(--bg-color);
+}
+.bgc-primary{
+    background-color: var(--primary-color);
+}
+.bg-mint{
+    background-color: var(--bg-mint);
+}
+.bg-blue{
+    background-color: var(--bg-blue);
+}
+.bg-gray{
+    background-color: var(--bg-gray);
+}
+.bg-gray-2{
+    background-color: var(--bg-gray-2);
+}
+
+.nav-txt{
+    color: var(--nav-txt-color);
+    font-size: var(--nav-font-size);
+    font-weight: var(--font-weight-lg);
+}
+.primary-color{
+    color: var(--primary-color);
+}
+.primary-txt-color{
+    color: var(--primary-txt-color);
+}
+.secondary-txt-color{
+    color: var(--secondary-txt-color);
+}
+.tertiary-txt-color{
+    color: var(--tertiary-txt-color);
+}
+.devider-color{
+    color: var(--devider-color);
+}
+
+.footer-color{
+    background-color: #001E00;
+    color: aliceblue;
+}
+
+/* font size  */
+.xxl{
+    font-size: var(--headings-xxl);
+}
+.xl{
+    font-size: var(--headings-xl);
+}
+.lg{
+    font-size: var(--headings-lg);
+}
+.md{
+    font-size: var(--headings-md);
+}
+.sm{
+    font-size: var(--headings-sm);
+}
+.xsm{
+    font-size: var(--headings-xsm);
+}
+
+/* font-weight  */
+
+.font-w-lg{
+    font-weight:var(--font-weight-lg);
+}
+.font-w-sm{
+    font-weight: var(--font-weight-sm);
+}

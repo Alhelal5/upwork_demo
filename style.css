@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
 *{
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
 }
 .li-style{
     list-style-type: none;
@@ -11,18 +11,25 @@
     white-space: nowrap;
 }
 .border-bottom{
-    border-bottom: 2px solid rgb(66, 66, 66);
+    border-bottom:1px solid var(--devider-color);
 }
-.bg-color{
-    background-color: #7878789c;
+.nowrap{
+    white-space: nowrap;
 }
-.color-w{
-    color: aliceblue;
+
+.container .con-one{
+    border-radius: 200px;
 }
-.footer-color{
-    background-color: #001E00;
-    color: aliceblue;
+.con-two{
+    background: url(./image/find-talent.webp);
 }
+/* -------------------------------------------  */
+/* good companys txt color  */
+.gc-color{
+    color: #91e6b3;
+}
+
+/* -------------------------------------------  */
 .min-height{
     min-height: 250px;
 }
@@ -37,12 +44,14 @@
 .box-container{
     min-height:150px;
     border-radius: 5px;
-    background-color: rgb(226, 224, 224);
+    background-color: var(--bg-gray-2);
     padding: 20px;
 }
 
 .image{
     background: cover;
+    height: 100%;
+    width: 100%;
     
 }
 .carousel-img{
@@ -52,6 +61,7 @@
 .container-fluid .row .col-sm-6 .li-style .td{
     color: aliceblue;
 }
+
             /* carousel css  */
             /* carousel css  */
             /* carousel css  */
@@ -92,6 +102,11 @@
 
 
 
+@media (min-width: 1200px){
+    .container {
+        width: 1170px;
+    }
+}
 
 @media only screen and (max-width: 847px) {
     .second-nav {
