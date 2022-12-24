@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong:wght@400;500;600;700&display=swap');
+
 *{
-    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Noto Serif NP Hmong', serif;
     margin: 0;
     padding: 0;
 }
@@ -12,8 +15,27 @@
     color: rgb(48, 48, 48);
     white-space: nowrap;
 }
+footer .td {
+    color: var(--secondary-color);
+    white-space: break-spaces;
+}
+.con-seven .td{
+    color: var(--tertiary-color);
+    font-size: 24px;
+}
 .border-bottom{
     border-bottom:1px solid var(--devider-color);
+}
+
+.icon-round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--devider-color);
 }
 .nowrap{
     white-space: nowrap;
@@ -80,6 +102,13 @@
     margin-top: 250px;
 }
 
+/* for client   */
+
+.for-c-width{
+    max-width: 200px;
+}
+
+
             /* carousel css  */
             /* carousel css  */
             /* carousel css  */
@@ -130,4 +159,9 @@
     .second-nav {
         display: none;
     }
-  }
+}
+/* @media only screen and (max-width: 547px) {
+    .xxl{
+        font-size: 54px;
+    }
+} */
