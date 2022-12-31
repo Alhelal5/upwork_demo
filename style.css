@@ -29,18 +29,49 @@
 .container{
     margin-top: 130px;
 }
+.nav-txt .search-pill{
+    border: 2px solid #92a1894f;
+}
+
+.nav-txt .search-pill .form-control {
+    display: block;
+    width: 100%;
+    /* padding: .375rem .75rem; */
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 44px;
+    line-height: 2;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ffffff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-left: -30px;
+    border-radius: .375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+i.fa-solid.fa-magnifying-glass {
+    z-index: 99;
+}
 
 
 footer .td {
     color: var(--secondary-color);
     /* white-space: b; */
 }
+
+
 .con-seven .td{
     color: var(--tertiary-color);
     font-size: 24px;
 }
 .border-bottom{
     border-bottom:1px solid var(--devider-color);
+}
+.border-top{
+    border-top:1px solid var(--devider-color);
 }
 
 .icon-round{
@@ -60,13 +91,20 @@ footer .td {
     max-height: 480px;
     max-width: 480px;
 }
+.border{
+    border-radius: 8px;
+}
 /* .container .con-one{
 } */
-.con-two{
+.con-two .bg-image{
     background: url(./image/find-talent.webp);
     background: cover;
     background-repeat: no-repeat;
 }
+
+
+
+
 /* -------------------------------------------  */
 /* good companys txt color  */
 .gc-color{
@@ -113,7 +151,16 @@ footer .td {
     position: absolute;
     right: 300px;
     top:-20px;
+    transform: translate(0) rotate(-8deg);
+
 }
+.con-three .person-mq{
+    position: relative;
+}
+.con-three .inner-con p{
+    margin-left: 40px;
+}
+
 .align-bottom{
     margin-top: inherit;
 }
@@ -129,6 +176,27 @@ footer .td {
             /* carousel css  */
             /* carousel css  */
             /* carousel css  */
+
+
+
+
+
+            /* for tallent  */
+
+.con-four .btn{
+    width: 181px;
+}
+
+
+
+
+
+
+/* we support ukrain  */
+.con-six .btn{
+        width: 169px;
+        height: 40px;
+}
 
 @media (max-width: 767px) {
     .carousel-inner .carousel-item > div {
@@ -216,7 +284,27 @@ footer .td {
     .container {
         margin-top: 65px;
     }
+    .con-three .person-before .person-after{
+        width: 38%;
+        height: 94%;
+        right: 0px;
+        top: 7px;
+    }
+    .dsign-gap{
+        margin-top: 0;
+    }
+    .con-seven .td {
+        font-size: 18px;
+    }
+    .con-seven h2 {
+        font-size: 22px;
+    }
+
+    footer ul{
+        white-space: normal;
+    }
 }
+
 
 
 @media only screen and (max-width: 767px) {
@@ -226,14 +314,14 @@ footer .td {
     .con-two .col-12 .heading-sm{
         font-size: 15px;
     }
-    .con-three .row .bgc-primary .image{
-        height: 80%;
-        width: 60%;
-    }
+    
     .con-three .row .bgc-primary .image{
 
     }
 
+    .mega-logo img{
+        display: none;
+    }
     *{
         --nav-font-size: 14px;
         --headings-xxl:52px;
@@ -243,10 +331,32 @@ footer .td {
         --para-xl:20px;
 
     }
+    footer .footer-toggle-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .footer-toggle{
+        width: 100%;
+        border-bottom: 1px solid gray;
+    }
+    
+    footer .footer-toggle ul{
+        display: none;
+    }
+    footer .mq-items-start{
+        padding: 0;
+    }
 }
 
-/* @media only screen and (max-width: 767px) {
-    *{
-        --para-xl:20px;
+
+
+
+@media only screen and (max-width: 699px) {
+    footer .mq-flex-column{
+        flex-direction: column;
     }
-} */
+    footer .mq-items-start{
+        display: flex;
+        justify-content: start;
+    }
+}

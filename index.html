@@ -13,7 +13,7 @@
 
     <!-- navbar  -->
     <section class="sticky-nav">
-        <nav class="navbar navbar-expand-lg border-bottom px-2 ">
+        <nav class="navbar navbar-expand-lg border-bottom px-2  justify-content-sm-start">
             <div class="container-fluid ">
                 <a class="navbar-brand primary-color font-w-lg" href="#">Upwork</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +60,26 @@
                         
                     </ul>
                     <form class="d-flex nav-txt" role="search">
-                        <input class="form-control rounded-pill" type="search" placeholder="Search" aria-label="Search">
+                        <div class="search-pill d-flex border-2 rounded-pill justify-content-center ">
+                            <div class="search-space d-flex align-items-center ms-3 border-light">
+                                <i class="fa-solid fa-magnifying-glass "></i>
+                                <input class="form-control py-0 rounded-pill " type="search" placeholder="Search" aria-label="Search">
+                            </div>
+                            <ul class="align-items-center text-center m-0 p-2">
+                                <li class="nav-item dropdown li-style">
+                                    <a class="nav-link dropdown-toggle nav-txt" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Talent
+                                    </a>
+                                    <ul class="dropdown-menu nav-txt">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <input class="form-control rounded-pill" type="search" placeholder="Search" aria-label="Search"> -->
                         <div>
                             <a class="nav-link active td p-2 mx-3 nav-txt" aria-current="page" href="#">Log in</a>
                         </div>
@@ -111,7 +130,7 @@
                 <div class="col-xs-12 col-md-6 col-lg-7 col-xl-6 ">
                     <div class="inner-content">
                         <h1 class="xxl primary-color">How Work <br> should work</h1>
-                        <p class="para-xl tertiary-txt-color">Forget the old rules. You can have the best people.
+                        <p class="para-xl tertiary-txt-color">Forget the old rules. You can have the <br> best people.
                             Right now. Right here.</p>
                     </div>
                     <div class="row mb-5">
@@ -134,7 +153,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-5 col-xl-6">
-                    <div class="mega-logo">
+                    <div class="mega-logo d-flex justify-content-end">
                         <div class="rounded-circle">
                             <img class="image" src="./image/globe@2x.webp" alt="">
                         </div>
@@ -144,10 +163,14 @@
 
             <!-- box content start here   -->
 
+
+
+
+
             <div class=" mb-4">
                 <div class="row">
                     <h1 class="md">Browse talent by category</h1>
-                    <p>looking for work? <a href="#">Browse jobs</a></p>
+                    <p>looking for work? <a class="primary-color td" href="#">Browse jobs</a></p>
                 </div>
                 <div class="row g-3 p-4">
                     <div class="col-sm-12 col-md-6 col-xl-3">
@@ -252,9 +275,9 @@
     </section>
     <section class="container p-0">
             <!-- Enterprise suite  -->
-            <div class="con-one rounded-3 mb-4 p-0">
+            <div class="con-one mb-4 p-0 bg-mint">
                 <div class="row p-0">
-                    <div class="col-12 col-md-7 bg-mint">
+                    <div class="col-md-7 rounded-2 bg-mint">
                         <div class="row p-4">
                             <div class="col-11 ">
                                 <span class="xsm font-w-lg secondary-txt-color">Enterprise Suite</span>
@@ -283,9 +306,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 p-0">
+                    <div class="col-md-5 p-0">
                         <div class="image">
-                            <img class="image" src="./image/hxwn-enterprise-image@2x.webp" alt="">
+                            <img class="image  rounded-2" src="./image/hxwn-enterprise-image@2x.webp" alt="">
                         </div>
                     </div>
                 </div>
@@ -293,8 +316,8 @@
 
 
             <!-- for client  -->
-            <div class="con-two mt-5">
-                <div class="row mb-4 secondary-txt-color rounded-2 p-4 ">
+            <div class="con-two mt-5 rounded-2">
+                <div class=" bg-image row mb-4 secondary-txt-color rounded-2 p-4 ">
                     <div class="col-sm-6 col-md-5">
                         <span class="para-lg mb-5">For Clients</span>
                         <h1 class="xl mt-5">Find talent <br>
@@ -338,9 +361,9 @@
 
             <!-- Why businesses turn to Upwork  -->
             
-            <div class="con-three rounded-2 mt-5">
+            <div class="con-three mt-5">
                 <div class="row mb-4 ">
-                    <div class="col-sm-12 col-md-8 p-4 ">
+                    <div class="col-md-12 col-lg-8 p-4 ">
                         <div class="row">
                             <div class="col-9 primary-txt-color">
                                 <h1 class="xl">
@@ -349,33 +372,32 @@
                                 </h1>
         
                                 <div class="inner-con my-3">
-                                    <h2>Proof of quality</h2>
+                                    <h2> <img src="./image/star.PNG" alt=""> Proof of quality</h2>
                                     <p>Check any pro’s work samples, client reviews, and identity verification.</p>
                                 </div>
                                 <div class="inner-con my-3">
-                                    <h2>No cost until you hire</h2>
+                                    <h2> <img src="./image/dollar.PNG" alt=""> No cost until you hire</h2>
                                     <p>Interview potential fits for your job, negotiate rates, and only pay for work you approve.</p>
                                 </div>
                                 <div class="inner-con my-3">
-                                    <h2>Safe and secure</h2>
+                                    <h2><img src="./image/tik.PNG" alt=""> Safe and secure</h2>
                                     <p>Interview potential fits for your job, negotiate rates, and only pay for work you approve.</p>
                                 </div>
                             </div>
                         </div>
     
                     </div>
-                    <div class="col-sm-12 col-md-4 person-before bgc-primary p-4 rounded-3 secondary-txt-color">
+                    <div class="col-md-12 col-lg-4 person-before bgc-primary p-4 rounded-3 secondary-txt-color">
                         <div class="row">
-                            <div class="col-sm-6 col-md-12">
+                            <div class="order-sm-2 col-md-6 col-lg-12 ">
                                 <div class="image person-after">
                                     <img class="image" src="./image/reaching-person@1x.png" alt="">
                                 </div>
-
                             </div>
-                            <div class="col-sm-6 col-md-12  dsign-gap">
+                            <div class="order-sm-1 col-md-6 col-lg-12 dsign-gap">
                                 <div>
                                     <h1>
-                                        We’re the world’s work marketplace
+                                        We’re <br> the world’s work <br> marketplace
                                     </h1>
                                     <div>
                                         <h1>4.9/5</h1>
@@ -383,7 +405,7 @@
                                     </div>
                                     <div>
                                         <div>
-                                            <img src="../upwork_demo/image/" alt="">
+                                            <img src="./upwork_demo/image/" alt="">
                                             <h1>Award winner</h1>
                                         </div>
                                         <p>G2’s 2021 Best Software Awards</p>
@@ -391,13 +413,17 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                        </div>
                     </div>
                 </div>
+
+
+
+
+
+
             </div>
 
-            <!-- find great work  -->
+            <!-- find great work  for tallent -->
 
             <div class="con-four mt-5">
                 <div class="row mb-4 rounded-3  bg-blue">
@@ -406,20 +432,21 @@
                             <img class="image rounded-3" src="./image/find-great-work.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 p-4 rounded-3 secondary-txt-color">
-                        <div class="border-bottom pb-5">
+                    <div class="col-sm-12 col-md-6 p-4 rounded-3 secondary-txt-color d-flex justify-content-between flex-column">
+                        <div class="for-talent">
                             <span class="para-lg">For talent</span>
                             <h1 class="xl">Find great <br>
                                 work</h1>
-                            <p class="para-md mb-5 pb-5">Meet clients you’re excited to work with and take
+                            <p class="para-md">Meet clients you’re excited to work with and take
                                 your career or business to new heights.</p>
                         </div>
-                        <div class="row my-2 para-md">
+                        <div class="row my-2 py-2 para-md border-top">
                             <div class="col-4"><span>Find opportunities for every stage of your freelance career</span></div>
                             <div class="col-4"><span>Control when, where, and how you work</span></div>
                             <div class="col-4"><span>Explore different ways to earn</span></div>
+                            
+                        <button class="btn btn-outline-success rounded-pill bg-gray text-blue mt-4" type="submit">Find Opportunities</button>
                         </div>
-                        <button class="btn btn-outline-success rounded-pill bg-gray px-4 py-2 text-blue" type="submit">Find Opportunities</button>
 
                     </div>
                 </div>
@@ -574,14 +601,14 @@
             <!-- top skills  -->
 
             <div class="con-seven mb-4 ">
-                <div class="row text-center">
+                <div class="row text-center g-4">
                     <div class="col-sm-12 col-md-4 md text-start">
                         <h2 class="primary-color">Top skills</h2>
                         <h2 class="tertiary-txt-color">Trending skills</h2>
                         <h2 class="tertiary-txt-color">Top skills in US</h2>
                         <h2 class="tertiary-txt-color">Project CatalogTM</h2>
                     </div>
-                    <div class="col-sm-12 col-md-4 text-start xsm tertiary-txt-color">
+                    <div class="col-sm-6 col-md-4 text-start xsm tertiary-txt-color">
                         <ul>
                             <li class="li-style"><a class="td" href="">Data Entry Specialists</a></li>
                             <li class="li-style"><a class="td" href="">Video Editors</a></li>
@@ -593,7 +620,7 @@
                             <li class="li-style"><a class="td" href="">Database Administrator</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-12 col-md-4 xsm text-start tertiary-txt-color">
+                    <div class="col-sm-6 col-md-4 xsm text-start tertiary-txt-color">
                         <ul>
                             <li class="li-style"><a class="td" href="">JavaScript Developer</a></li>
                             <li class="li-style"><a class="td" href="">Logo Designer</a></li>
@@ -614,8 +641,8 @@
     </section>
     <footer class="container-fluid p-4">
         <div class="p-5 rounded-3 footer-color">
-            <div class="row p-3">
-                <div class="col-3 text-white">
+            <div class="row p-3 footer-toggle-flex">
+                <div class="col-3 text-white footer-toggle">
                     <h6 class="old-gray txt-xsm">For clients</h6>
                     <ul class="p-0">
                         <li class="li-style txt-xsm"><a class="td" href="">How to hire</a></li>
@@ -630,7 +657,7 @@
                         <li class="li-style txt-xsm"><a class="td" href="">Hire in the USA</a></li>
                     </ul>
                 </div>
-                <div class="col-3">
+                <div class="col-3 footer-toggle">
                     <h6 class="old-gray txt-xsm">For Talent</h6>
                     <ul class="p-0">
                         <li class="li-style txt-xsm"><a href="#" class="td">How to Find Work</a></li>
@@ -639,7 +666,7 @@
                         <li class="li-style txt-xsm"><a href="#" class="td">Find Freelance Jobs in the USA</a></li>
                     </ul>
                 </div>
-                <div class="col-3">
+                <div class="col-3 footer-toggle">
                     <h6 class="old-gray txt-xsm">Resource</h6>
                     <ul class="p-0">
                         <li class="li-style txt-xsm"><a href="#" class="td">Help & Support</a></li>
@@ -652,7 +679,7 @@
                         <li class="li-style txt-xsm"><a href="#" class="td">Free Business tools</a></li>
                     </ul>
                 </div>
-                <div class="col-3">
+                <div class="col-3 footer-toggle">
                     <h6 class="old-gray txt-xsm">Company</h6>
                     <ul class="p-0">
                         <li class="li-style txt-xsm"><a href="#" class="td">About Us</a></li>
@@ -667,10 +694,12 @@
                     </ul>
                 </div>
             </div>
-            <div class="row justify-content-between border-bottom m-3 py-3">
-                <div class="col-auto p-0 d-flex ">
-                    <div class="align-self-center">
-                        <span>Follow Us</span>
+            <!-- pain in the mind  -->
+
+            <div class="row justify-content-between border-bottom m-3 py-3 ">
+                <div class="col-auto p-0 d-flex mq-flex-column mb-3">
+                    <div class="d-flex">
+                        <span class="mq-items-start">Follow Us</span>
                     </div>
                     <div>
                         <ul class="m-0 py-0 d-flex justify-content-around">
@@ -701,24 +730,30 @@
                             </li>
                         </ul>
                     </div>
-    
                 </div>
-                <div class="col-auto p-0 d-flex">
-                    
-                    <div class="align-self-center">
-                        <span>Mobile App</span>
+                <div class="col-auto p-0 d-flex mq-flex-column">
+                    <div class="d-flex">
+                        <span class="mq-items-start">Mobile App</span>
                     </div>
                     <div>
                         <ul class="m-0 py-0 d-flex gap-3">
-                            <li class="li-style"><a class="icon-round td" href="#"><i class="fa-brands fa-apple"></i></a></li>
-                            <li class="li-style"><a class="icon-round td" href="#"><i class="fa-brands fa-android"></i></a></li>
+                            <li class="li-style">
+                                <a class="icon-round td" href="#">
+                                    <i class="fa-brands fa-apple"></i>
+                                </a>
+                            </li>
+                            <li class="li-style">
+                                <a class="icon-round td" href="#">
+                                    <i class="fa-brands fa-android"></i>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="copy-right px-3">
                 <div class="row my-3" >
-                    <div class="col-auto">
+                    <div class="col-auto ">
                         <span class="me-4">© 2015 - 2022 Upwork® Global Inc.</span>
                         <a href="" class="td mx-2 text-white">Term of Service</a>
                         <a href="" class="td  text-white mx-2 ">Privacy Policy</a>

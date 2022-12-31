@@ -103,6 +103,10 @@
     font-size: var(--nav-font-size);
     font-weight: var(--font-weight-lg);
 }
+.star{
+    height: 10px;
+    width: 10px;
+}
 .primary-color{
     color: var(--primary-color);
 }
